@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 import React, {useCallback, useEffect, useState} from 'react';
 import './App.css';
 

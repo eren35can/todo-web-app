@@ -8,7 +8,6 @@ const TodoData = {value: 'testTodo', completed: false };
 describe('Todo Model Test', () => {
 
     let connection;
-    let db;
     const testUri = process.env.TEST_DB_URI;
     // It's just so easy to connect to the MongoDB Memory Server
     // By using mongoose.connect

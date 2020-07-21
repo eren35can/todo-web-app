@@ -31,16 +31,6 @@ describe('Todo Router Test', ()=>{
         expect(deleteRes.statusCode).toEqual(200);
     });
 
-    // it('posted a todo', async  ()=> {
-    //     const postRes = await request.post('/api/todos').send(testTodo);
-    //     expect(postRes.statusCode).toEqual(201);
-    // });
-    //
-    // it('updated a todo', async  ()=> {
-    //     const postRes = await request.put('/api/todos'+testTodo._id);
-    //     expect(postRes.statusCode).toEqual(201);
-    // });
-
     it('posted empty body', async  ()=> {
         const postRes = await request.post('/api/todos').send(null);
         expect(postRes.statusCode).toEqual(400);
