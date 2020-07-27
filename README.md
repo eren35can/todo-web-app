@@ -9,8 +9,8 @@ git clone https://github.com/eren35can/todo-web-app.git
 ```
 Build projet in 2 steps.
 
-1 - startup server and api
-  Go to folder
+1 - Startup server and api
+Go to folder
 ```bash
 cd backend
 ```
@@ -20,7 +20,7 @@ npm start
 ```
 
 2- Build the React part
-  Go to folder
+Go to folder
 ```bash
 cd todoapp
 ```
@@ -42,4 +42,10 @@ To run frontend unit tests
 ```bash
 cd todoapp
 npm test
+```
+
+
+Reach the application from your browser
+```bash
+http://localhost:3000/
 ```
