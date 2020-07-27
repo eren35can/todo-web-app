@@ -1,8 +1,45 @@
 # todo-web-app
 Todo App to intro test driven web development
 
-to startup server and api, command npm start in backend directory
+# Installation
 
-then to build react part, command npm start in todoapp directory.
+Clone the project:
+```bash
+git clone https://github.com/eren35can/todo-web-app.git
+```
+Build projet in 2 steps.
 
-Also, can test by command npm test in backend and todoapp directory
+1 - startup server and api
+  Go to folder
+```bash
+cd backend
+```
+  Build and run
+```bash
+npm start
+```
+
+2- Build the React part
+  Go to folder
+```bash
+cd todoapp
+```
+  Build and run
+```bash
+npm start
+```
+
+# Testing
+You can also run test in project diretories
+
+To run backend unit tests
+```bash
+cd backend
+npm test
+```
+
+To run frontend unit tests
+```bash
+cd todoapp
+npm test
+```
